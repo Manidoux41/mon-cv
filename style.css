@@ -1,0 +1,47 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Regular.woff2') format(woff2);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 15px;
+}
+.title {
+    position:relative;   
+    font-size: 3.53rem;
+    text-transform: uppercase;
+    width: 35%;
+    height: 150px;
+    margin: 10px auto;
+    
+}
+.nom{
+    position: absolute;
+    right:-40px;
+    bottom:5px;
+}
+.prenom{
+    position: absolute;
+    left: -40px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;    
+    margin: 0 auto;
+    background: url("./assets/img/IMG_0587.jpg") no-repeat;
+    background-size: 85%;
+}
+
